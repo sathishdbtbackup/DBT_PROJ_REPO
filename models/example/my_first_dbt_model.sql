@@ -9,7 +9,7 @@
 
 {{
     config(
-        materialized='table'
+        materialized='view'
     )
 }}
 with source_data as (
